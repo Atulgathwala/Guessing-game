@@ -1,0 +1,170 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#start{
+    height: 100vh;
+    width: 100vw;
+    background: url(images/indx.jpg) no-repeat center center/cover;
+    
+    
+  
+    
+}
+#start .greet{
+    height: 200px;
+    width: 300px;
+    color: rgb(228, 237, 235);
+    font-size: 300%;
+
+    font-weight: 300;
+     
+    
+    margin-left: 400px;
+    
+}
+
+.butt{
+    margin-top: 200px;
+    margin-left: 900px;
+    
+   
+    
+
+}
+#btn{
+     
+  height: 70px;
+  width: 200px;
+  border-radius: 30px;
+  font-size: larger;
+  
+  
+}
+#btn:hover{
+    background-color: rgb(120, 240, 34);
+    color: blue;
+    cursor: pointer;
+}
+
+/* rules and index 2 */
+#rules{
+    height: 100vh;
+    width: 100vw;
+    background: url(images/gs1.jpg) no-repeat center center/cover;
+    
+}
+
+.rule{
+    height: 400px;
+    width: 650px;
+   
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+ #rules  ul li{
+   
+    
+    color: rgb(23, 10, 10)
+
+}
+.rule h1{
+    text-align: center;
+}
+
+.rule .a{
+    border: 2px solid white ;
+    border-radius: 30px;
+    text-align: center;
+}
+.rule .b{
+    border: 2px solid white ;
+    border-radius: 30px;
+    text-align: center;
+}
+.rule .c{
+    border: 2px solid white ;
+    border-radius: 30px;
+    text-align: center;
+}
+.rule .d{
+    border: 2px solid white ;
+    border-radius: 30px;
+    text-align: center;
+}
+.con{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 30px;
+
+}
+
+#continue{
+     
+    height: 70px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: rgb(247, 123, 123);
+    color: black;
+    
+    
+  }
+  #continue:hover{
+      background-color: rgb(120, 240, 34);
+      color: blue;
+      cursor: pointer;
+  }
+
+  /* section game */
+
+  #game{
+    height: 100vh;
+    width: 100vw;
+    background: url(images/gs2.jpg) no-repeat center center/cover;
+    
+    
+  
+    
+}
+.gm{
+    color: white;
+    text-align: center;
+    line-height: 74px;
+    font-size: 50px;
+}
+#guessField{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 40px;
+    text-align: center;
+
+}
+#submitguess{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(125, 210, 33);
+    cursor: pointer;
+    
+}
+#win{
+    height: 100vh;
+    width: 100vw;
+    background: url(images/won.jpg) no-repeat center center/cover;
+}
+#won{
+    height: 30px;
+    width: 50px;
+}
+
+
+
+
+
+
